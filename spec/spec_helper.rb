@@ -2,11 +2,11 @@
 require 'selenium-webdriver'
 require 'rspec'
 require 'bundler'
-require 'rspec_html_reporter'
+# require 'rspec_html_reporter'
 
 
 RSpec.configure do |config|
-  config.default_formatter = 'RspecHtmlFormatter'
+  #config.default_formatter = 'RspecHtmlFormatter'
   
   config.before(:each) do
     caps = Selenium::WebDriver::Remote::Capabilities.chrome(
