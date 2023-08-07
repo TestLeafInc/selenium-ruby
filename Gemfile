@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'require_all'
+gem 'parallel_split_test'
+gem 'rake'
+gem 'parallel_tests'
+gem 'rspec-steps', '~> 2.1', '>= 2.1.1'
+gem 'faker', '~> 3.2'
+gem 'rspec_html_reporter'

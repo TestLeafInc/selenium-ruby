@@ -1,0 +1,2 @@
+test1: sample_spec_file.rb chrome
+test2: sample_ff_spec.rb firefox
